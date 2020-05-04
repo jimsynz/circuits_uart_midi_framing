@@ -1,11 +1,13 @@
 # Circuits.UART.Framing.MIDI
 
-**TODO: Add description**
+Implements a simple framing that splits incoming serial data into individual
+messages.
 
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `circuits_uart_midi_framing` to your list of dependencies in `mix.exs`:
+by adding `circuits_uart_midi_framing` to your list of dependencies in
+`mix.exs`:
 
 ```elixir
 def deps do
