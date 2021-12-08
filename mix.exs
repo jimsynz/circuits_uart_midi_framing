@@ -21,7 +21,7 @@ defmodule Circuits.UART.Framing.MIDI.MixProject do
 
   def package do
     [
-      maintainers: ["James Harton <james@automat.nz>"],
+      maintainers: ["James Harton <james@harton.nz>"],
       licenses: ["Hippocratic"],
       links: %{
         "Source" => "https://gitlab.com/jimsy/circuits_uart_midi_framing"
@@ -42,7 +42,8 @@ defmodule Circuits.UART.Framing.MIDI.MixProject do
       {:circuits_uart, "~> 1.4"},
       {:credo, "~> 1.1", only: [:dev, :test], runtime: false},
       {:earmark, ">= 0.0.0", only: [:dev, :test]},
-      {:ex_doc, ">= 0.0.0", only: [:dev, :test]}
+      {:ex_doc, ">= 0.0.0", only: [:dev, :test]},
+      {:git_ops, "~> 2.3", only: ~w[dev test]a, runtime: false},
     ]
   end
 end
