@@ -41,7 +41,7 @@ defmodule Circuits.UART.Framing.MIDI.MixProject do
     [
       {:circuits_uart, "~> 1.4"},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
-      {:earmark, ">= 0.2.1", only: [:dev, :test]},
+      {:earmark, ">= 1.4.19", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: [:dev, :test]},
       {:git_ops, "~> 2.3", only: ~w[dev test]a, runtime: false}
     ]
