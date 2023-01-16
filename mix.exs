@@ -1,7 +1,7 @@
 defmodule Circuits.UART.Framing.MIDI.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "1.0.0"
 
   @description """
   Implements MIDI framing for Serial ports connected via Circuits.UART.

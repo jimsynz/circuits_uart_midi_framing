@@ -16,7 +16,7 @@ by adding `circuits_uart_midi_framing` to your list of dependencies in
 ```elixir
 def deps do
   [
-    {:circuits_uart_midi_framing, "~> 0.1.0"}
+    {:circuits_uart_midi_framing, "~> 1.0.0"}
   ]
 end
 ```
