@@ -22,7 +22,7 @@ defmodule Circuits.UART.Framing.MIDI.MixProject do
   def package do
     [
       maintainers: ["James Harton <james@harton.nz>"],
-      licenses: ["Hippocratic"],
+      licenses: ["HL3-FULL"],
       links: %{
         "Source" => "https://gitlab.com/jimsy/circuits_uart_midi_framing"
       }
