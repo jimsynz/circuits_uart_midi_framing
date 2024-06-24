@@ -25,6 +25,12 @@ Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_do
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/circuits_uart_midi_framing](https://hexdocs.pm/circuits_uart_midi_framing).
 
+## Github Mirror
+
+This repository is mirrored [on Github](https://github.com/jimsynz/circuits_uart_midi_framing)
+from it's primary location [on my Forejo instance](https://harton.dev/james/circuits_uart_midi_framing).
+Feel free to raise issues and open PRs on Github.
+
 ## License
 
 This software is licensed under the terms of the
