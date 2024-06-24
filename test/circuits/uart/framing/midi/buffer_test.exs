@@ -88,7 +88,7 @@ defmodule Circuits.UART.Framing.MIDI.BufferTest do
         |> Buffer.append(message)
         |> Buffer.get_packets()
 
-      assert [message] = messages
+      assert [_message] = messages
       assert Buffer.empty?(buffer)
     end
   end

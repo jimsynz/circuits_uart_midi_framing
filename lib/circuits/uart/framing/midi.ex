@@ -31,7 +31,6 @@ defmodule Circuits.UART.Framing.MIDI do
     case Buffer.get_packets(buffer) do
       {:ok, messages, %Buffer{buffer: <<>>} = buffer} -> {:ok, messages, buffer}
       {:ok, messages, %Buffer{} = buffer} -> {:in_frame, messages, buffer}
-      {:error, reason} -> {:error, reason}
     end
   end
 
