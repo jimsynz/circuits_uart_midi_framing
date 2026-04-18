@@ -1,6 +1,5 @@
 # Circuits.UART.Framing.MIDI
 
-[![Build Status](https://drone.harton.dev/api/badges/james/circuits_uart_midi_framing/status.svg)](https://drone.harton.dev/james/circuits_uart_midi_framing)
 [![Hex.pm](https://img.shields.io/hexpm/v/circuits_uart_midi_framing.svg)](https://hex.pm/packages/circuits_uart_midi_framing)
 [![Hippocratic License HL3-FULL](https://img.shields.io/static/v1?label=Hippocratic%20License&message=HL3-FULL&labelColor=5e2751&color=bc8c3d)](https://firstdonoharm.dev/version/3/0/full.html)
 
